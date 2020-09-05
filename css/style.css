@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Quicksand', sans-serif;
+}
+a, span, p, input,{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+	background: white;
+	padding: 15px;
+}
+
+.header img{
+	vertical-align: middle;
+}
+
+.header span {
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 15px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-1{
+	width: 25%;
+	float: left;
+}
+.col-11{
+	width: 75%;
+	float: right;
+}
+
+.banner-left{
+	
+	padding: 34px;
+}
+.banner .left h1{
+	font-size: 44px;
+	margin-bottom: 16px;
+}
+.banner .left p{
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 20px;
+	color: #4c527d;
+}
+.banner button{
+	padding: 20px 50px;
+	border-radius: 32px;
+	outline: none;
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	font-weight: 600;
+}
+.banner .left-button{
+	background: #ed6524;
+	font-size: 18px;
+	color: white;
+}
+.banner .right-button{
+	background: white;
+	font-size: 18px;
+	color: #ed6524;
+}
+.banner .right-button:hover{
+	background: #ed6524;
+	color: white;
+	transition: 0.5s ease-in-out;
+}
+
+.Down{
+	width: 100%;
+	margin: 30px 0;
+}
+.message{
+	height: 140px;
+	width: 100%;
+	background: #f6f4f6;
+	border-left: 4px solid #f6a782;
+	position: relative;
+}
+
+.message p{
+	font-size: 18px !important;
+	line-height: 20px;
+	padding: 40px; 
+	font-style: italic;
+}
+
+.corner-box{
+	height: 30px;
+	width: 30px;
+	background: #f6f4f6;
+	position: absolute;
+	bottom: -15px;
+	left: 5%;
+	transform: rotate(45deg);
+}
+
+.user{
+	width: 100%;
+	height: 70px;
+	margin-top: 25px; 
+}
+.user img{
+	width: 70px;
+}
+
+.user-info p{
+	margin: 0px !important;
+	padding: 0px !important;
+	font-weight: 500 !important;
+	font-size: 14px !important;
+	line-height: 20px;
+}
+
+.banner-right{
+	margin-left: 60px;
+}
+.all{
+	 width: 100%; 
+	 text-align: center;
+}
+.all a:hover{
+	color: #ed6524;
+}
+.right-img{
+	position: relative;
+}
+.banner .circle{
+	height: 160px;
+	width: 160px;
+	background: green;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	right: 20px;
+	top: -64px;
+}
+.banner .circle h3{
+	padding: 50px;
+}
+
+
+.service{
+	width: 100%;
+	display: flow-root;
+	background-color: #f6f8fc;
+}
+
+.service-body{
+	width: 100%;
+	float: left;
+	padding: 100px 0;
+}
+
+.col{
+	width: 33.33%;
+	float: left;
+}
+.service-title{
+	margin: 30px 0;
+	text-align: center;
+}
+.service-title h1{
+font-size; 42px;
+}
+.service-title p{
+font-size: 30px;
+line-height: 30px;
+color: #4c527d;
+}
+.item{
+	text-align: center;
+	padding: 30px;
+}
+.item h3{
+	margin: 0px;
+}
+.item p{
+	color: #4c527d;
+	list-style: 24px;
+}
+
+
+.item-sec{
+	width: 100%;
+	display: flow-root;
+	padding: 100px 0;
+}
+.item-title{
+	text-align: center;
+}
+.item-title h1{
+	font-size: 42px;
+}
+
+.item-body{
+	width: 100%;
+	float: left;
+}
+
+
+
+.col-5{
+	width:50%;
+	float:left;
+	margin: 60px 0;
+}
+.item-img{
+	padding: 50px;
+	text-align: right;
+}
+.item-text{
+	padding: 50px;
+}
+
+.item-text ul li{
+	list-style: none;
+	color: #4c527d;
+	margin-bottom: 16px;
+	margin-left: 10px;
+}
+.item-text ul li i{
+	color: #7FCDB8;
+	margin-right: 10px;
+}
+
+.item-text button{
+	background: #ed6524;
+	font-size: 18px;
+	color: white;
+	padding: 20px 50px;
+	border-radius: 32px;
+	outline: none;
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+/*.third-title{
+	width: 100%;
+	display: flow-root;
+	float: left;
+	padding: 100px 0;
+}
+
+.title-third{
+	margin: 30px 0;
+	text-align: center;
+}
+
+
+ .title-third h1{
+	font-size; 42px;
+}
+
+
+.title-third p {
+font-size: 22px ;
+line-height: 30px;
+color: #4c527d;
+padding: 50px;
+
+}
+
+.row {
+	width: 100%;
+	display: flow-root; 
+	text-align: center;
+
+}
+.row-data ul li{
+	list-style: none;
+}
+.row-data ul li i{
+	color: #7FCDB8;
+	margin-right: 10px;
+}
+.row-data span{
+	color: black;
+	font-style: bold;
+	font-size: 22px;
+}
+
+.row-data p{
+	text-align-last: center;
+margin-top: -10px;
+margin-left: 30px;
+margin-top: 10px;
+font-size: 17px;
+color: #66527d;
+}*/
+
+/*subscribe section*/
+.subscribe{
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+}
+.subscribe-box{
+	background-color: #fcf4f6;
+	width: 40%;
+	margin: 0 auto;
+	padding: 70px 90px;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
+}
+.subscribe-box: hover{
+	box-shadow: 0px 8px 20px 0 rgba(0,0,0,0.4);
+	transition: all 0.5s ease-in-out;
+}
+
+.subscribe-box p{
+	color: #4c527d;
+	margin: 20px 0; 
+}
+.email-input{
+	width: 60%;
+	padding: 15px;
+	border-radius: 3px;
+	border:none;
+}
+
+
+.send-button{
+	padding: 10px 15px;
+	font-weight: bold;
+	background-color: #ed6524;
+	color: white; 
+	border:none;
+	border:1px solid #ed6524;
+	border-radius: 5px;
+}
+
+/*book css*/
+.book-review{
+	width: 100%;
+	display: flow-root;
+}
+
+.book-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.book-title p{
+	color: #4c527d;
+	margin: 10px 0;
+}
+.reviews-01{
+	width:100%;
+	float: left;
+}
+
+.review-box{
+	padding: 15px;
+	background-color: #f6f4fc;
+	position: relative;
+	margin: 0 15px;
+}
+
+
+.review-text{
+	margin: 10px;
+	color: #4c527d;
+}
+.user-info p{
+	color: #4c527d;
+}
+
+.testimonial-icon{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: tomato;
+	position: absolute;
+	left: 40%;
+	top: -10%;
+	text-align: center; 
+	line-height: 40px;
+	color: white;
+}
+
+.review-02{
+	width: 100%;
+	float: left;
+	margin: 50px; 
+}
+
+.space{
+	margin: 0 200px;
+}
+
+/*user profile section css*/
+.user-sec {
+	padding: 100px 0;
+	background: #ed6524;
+}
+.user-information img{
+	margin-bottom: 30px;	
+}
+
+.user-information{
+	margin: 20px 100px;
+}
+
+.user-sec h1{
+	font-size: 42px;
+	color: white;
+}
+.user-sec p{
+	color: white;
+	margin: 10px 0;
+
+}
+.ohh {
+	text-align: center;
+}
+
+.ohh-2{
+	text-align: left;
+}
+/*social midea*/
+
+
+.banner{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+.social-01 ul li{list-style: none;
+		display: inline-block;
+		margin-top: 20px;
+}
+
+.social-01 ul li a{
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 0 20px;
+	transition: 0.5s;
+	color: white;
+	width: 20px;
+	padding: 10px;
+
+}
+
+
+.social-01 ul li a i:hover{
+	color:  #f92200 ;
+	transition: 0.5s;
+	font-size: 35px;
+}
+
+/*THE END*/
